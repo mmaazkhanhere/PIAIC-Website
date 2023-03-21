@@ -11,4 +11,18 @@
   .footerStyle{
     @apply grid bg-[#2E294E] lg:grid-cols-[repeat(4,auto)] md:grid-cols-[repeat(2,auto)] xs:grid-cols-[repeat(1,auto)] min-w-full xs:place-content-center md:place-content-stretch ;
   }
+  .bannerStyle{
+    @apply mt-10 border-[5px] border-[#12FBE1] rounded-[30px] grid lg:grid-cols-[repeat(2,auto)] md:grid-cols-[repeat(1,auto)] xs:grid-cols-[repeat(1,auto)] xs:place-items-center 
+    mx-auto lg:max-w-[1336px] md:max-w-3xl xs:max-w-[400px]; 
+  }
+  .bannerContent{
+    @apply  flex flex-col items-center lg:gap-y-10 md:gap-y-7 xs:gap-y-5 lg:pl-16 md:pl-12 xs:pl-8 lg:pr-16 md:pr-12 xs:pr-8;
+  }
+  .bannerSpan{
+    @apply lg:text-[80px] md:text-[70px] xs:text-[55px];
+  }
+  .bannerButton{
+    @apply lg:w-[230px] md:w-[220px] xs:w-[200px] lg:h-[60px] md:h-[50px] xs:h-[40px] rounded-[30px] bg-white text-black font-bold lg:text-[22px] md:text-[19px] xs:text-[17px] 
+    lg:border-b-[5px] md:border-b-[4px] xs:border-b-[3px] border-white hover:border-[#12FBE1] xs:mb-4;
+  }
 }  
