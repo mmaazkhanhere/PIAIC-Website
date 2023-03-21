@@ -1,13 +1,8 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import React from 'react'
+import Header from './Component/Header'
 
 export default function Home() {
   return (
-    <main>
-      Hello World
-    </main>
+    <Header />
   )
 }
