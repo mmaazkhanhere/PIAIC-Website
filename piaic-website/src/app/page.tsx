@@ -1,8 +1,12 @@
 import React from 'react'
-import Header from './Component/Header'
+import Header from './homePage/Header'
+import Footer from './homePage/Footer'
 
 export default function Home() {
   return (
-    <Header />
+    <>
+      <Header />
+      <Footer />
+    </>
   )
 }
