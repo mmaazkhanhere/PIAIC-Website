@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Image from 'next/image'
 
@@ -21,7 +22,7 @@ export default function HomePage() {
         <>
             <section className="container bannerStyle">
                 <div>
-                    <Image src={president} alt='' width={{ sm: '250px', md: '275px', lg: '302px' }} />
+                    <img src="/President.png" alt="" className='xs:w-[250px] md:w-[250px] lg:w-[320px]' />
                 </div>
 
                 <div className="container bannerContent">
@@ -73,7 +74,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className='md:pb-[500px] lg:pb-[100px]'>
+            <section className='md:pb-[500px] lg:pb-[100px] mt-[50px]'>
                 <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="bannerSpan">C</span>OURSES <span
                     className="bannerSpan">A</span>VAILABLE</h1>
 
@@ -109,7 +110,7 @@ export default function HomePage() {
             </section >
 
             <section> {/*Testimonial Section */}
-                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight mt-[50px]"><span className="bannerSpan">W</span>HAT<span
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="bannerSpan">W</span>HAT<span
                     className="bannerSpan"> P</span>EOPLE <span className="bannerSpan"> H</span>AVE <span className="bannerSpan"> T</span>O <span className="bannerSpan"> S</span>
                     AY?</h1>
                 <Testimonial />

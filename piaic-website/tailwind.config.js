@@ -18,9 +18,13 @@ module.exports = {
       xl: '1440px',
       xxl:'2560px'
     },
-    extend: {
-      // ...
+    variants:{
+      extend: {
+        display:['group-foucs'],
+        opacity:['group-foucs'],
+        inset:['group-foucs']
+        },
+      },
     },
-  },
   plugins: [],
 }
