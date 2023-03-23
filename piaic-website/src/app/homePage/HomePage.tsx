@@ -14,6 +14,7 @@ import block from '../../../public/blockchain.jpeg'
 import cloud from '../../../public/cloud.jpg'
 import iot from '../../../public/iot.jpg'
 import meta from '../../../public/metaverse.jpg'
+import Testimonial from './Testimonial'
 
 export default function HomePage() {
     return (
@@ -45,7 +46,8 @@ export default function HomePage() {
                 </p>
             </section>
 
-            <section className='lg:max-w-[1336px] md:max-w-2xl xs:max-w-[400px] grid lg:grid-cols-[repeat(3,auto)] md:grid-cols-[repeat(2,auto)] xs:grid-cols-[repeat(1,auto)] xs:gap-1 md:gap-2 mx-auto mt-[50px]' >
+            <section className='lg:max-w-[1336px] md:max-w-2xl xs:max-w-[400px] grid lg:grid-cols-[repeat(3,auto)] md:grid-cols-[repeat(2,auto)] xs:grid-cols-[repeat(1,auto)] 
+            xs:gap-1 md:gap-2 mx-auto mt-[50px]' >
                 <div className='border border-[#12FBE1] rounded-[30px] overflow-hidden'>
                     <Image src={i1} alt='Image 1' className='hover:scale-150' />
                 </div>
@@ -72,9 +74,11 @@ export default function HomePage() {
             </section>
 
             <section className='md:pb-[500px] lg:pb-[100px]'>
-                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="bannerSpan">C</span>OURSES <span className="bannerSpan">A</span>VAILABLE</h1>
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="bannerSpan">C</span>OURSES <span
+                    className="bannerSpan">A</span>VAILABLE</h1>
 
-                <div className="container grid lg:grid-cols-[repeat(5,auto)] md:grid-cols-[repeat(3,auto)] xs:grid-cols-[repeat(1,auto)] lg:max-w-[1600px] md:max-w-[1000px] md:pl-4 lg:pl-0 md:pr-4 lg:pr-0  mx-auto gap-[55px] mt-6">
+                <div className="container grid lg:grid-cols-[repeat(5,auto)] md:grid-cols-[repeat(3,auto)] xs:grid-cols-1 lg:max-w-[1600px] md:max-w-[1000px] md:pl-4 
+                lg:pl-0 md:pr-4 lg:pr-0  mx-auto gap-[55px] mt-6">
 
                     <div className="ml-1 bg-[#2E294E] container max-w-[270px] md:relative lg:static max-h-[310px] border-[3px] border-[#12FBE1]">
                         <div className="text-[23px] font-semibold text-center">ARTIFICIAL INTELLIGENCE</div>
@@ -103,6 +107,13 @@ export default function HomePage() {
 
                 </div>
             </section >
+
+            <section> {/*Testimonial Section */}
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight mt-[50px]"><span className="bannerSpan">W</span>HAT<span
+                    className="bannerSpan"> P</span>EOPLE <span className="bannerSpan"> H</span>AVE <span className="bannerSpan"> T</span>O <span className="bannerSpan"> S</span>
+                    AY?</h1>
+                <Testimonial />
+            </section>
         </>
     )
 }
