@@ -22,14 +22,16 @@ export default function HomePage() {
         <>
             <section className="container bannerStyle">
                 <div>
-                    <img src="/President.png" alt="" className='xs:w-[250px] md:w-[250px] lg:w-[320px]' />
+                    <a href="/" className='cursor-pointer'>
+                        <img src="/President.png" alt="" className='xs:w-[250px] md:w-[250px] lg:w-[320px]' />
+                    </a>
                 </div>
 
                 <div className="container bannerContent">
 
-                    <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="bannerSpan">P</span>RESIDENTIAL
-                        <span className="bannerSpan"> I</span>NITIATIVE FOR <span className="bannerSpan"> A</span>RTIFICIAL <span className="bannerSpan">I</span>NTELLIGENCE &
-                        <span className="bannerSpan"> C</span>OMPUTING</h1>
+                    <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headerSpan">P</span>RESIDENTIAL
+                        <span className="headerSpan"> I</span>NITIATIVE FOR <span className="headerSpan"> A</span>RTIFICIAL <span className="headerSpan">I</span>NTELLIGENCE &
+                        <span className="headerSpan"> C</span>OMPUTING</h1>
 
                     <p className="text-justify lg:text-[22px] md:text-[20px] xs:text-[16px] lg:leading-8 md:leading-6">
                         The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies. Experts are calling this the 4th industrial revolution. We want Pakistan to become a global hub for AI, data science, cloud native computing, edge computing, blockchain, augmented reality, and internet of things.
@@ -75,8 +77,8 @@ export default function HomePage() {
             </section>
 
             <section className='md:pb-[500px] lg:pb-[100px] mt-[50px]'>
-                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="bannerSpan">C</span>OURSES <span
-                    className="bannerSpan">A</span>VAILABLE</h1>
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headerSpan">C</span>OURSES <span
+                    className="headerSpan">A</span>VAILABLE</h1>
 
                 <div className="container grid lg:grid-cols-[repeat(5,auto)] md:grid-cols-[repeat(3,auto)] xs:grid-cols-1 lg:max-w-[1600px] md:max-w-[1000px] md:pl-4 
                 lg:pl-0 md:pr-4 lg:pr-0  mx-auto gap-[55px] mt-6">
@@ -110,8 +112,8 @@ export default function HomePage() {
             </section >
 
             <section> {/*Testimonial Section */}
-                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="bannerSpan">W</span>HAT<span
-                    className="bannerSpan"> P</span>EOPLE <span className="bannerSpan"> H</span>AVE <span className="bannerSpan"> T</span>O <span className="bannerSpan"> S</span>
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headerSpan">W</span>HAT<span
+                    className="headerSpan"> P</span>EOPLE <span className="headerSpan"> H</span>AVE <span className="headerSpan"> T</span>O <span className="headerSpan"> S</span>
                     AY?</h1>
                 <Testimonial />
             </section>

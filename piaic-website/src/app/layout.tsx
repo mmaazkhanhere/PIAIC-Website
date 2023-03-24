@@ -1,4 +1,6 @@
 import './globals.css'
+import Footer from './homePage/Footer'
+import Header from './homePage/Header'
 
 export const metadata = {
   title: 'PIAIC Website',
@@ -13,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

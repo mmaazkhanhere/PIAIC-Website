@@ -7,6 +7,7 @@
       @apply bg-[#1B998B] text-[#F6E7CB];
     }
 }
+
 @layer components {
   .footerStyle{
     @apply grid bg-[#2E294E] lg:grid-cols-[repeat(4,auto)] md:grid-cols-[repeat(2,auto)] xs:grid-cols-[repeat(1,auto)] min-w-full xs:place-content-center md:place-content-stretch ;
@@ -18,11 +19,14 @@
   .bannerContent{
     @apply  flex flex-col items-center lg:gap-y-10 md:gap-y-7 xs:gap-y-5 lg:pl-16 md:pl-12 xs:pl-8 lg:pr-16 md:pr-12 xs:pr-8;
   }
-  .bannerSpan{
+  .headingSpan{
     @apply lg:text-[80px] md:text-[70px] xs:text-[55px];
   }
   .bannerButton{
     @apply lg:w-[230px] md:w-[220px] xs:w-[200px] lg:h-[60px] md:h-[50px] xs:h-[40px] rounded-[30px] bg-white text-black font-bold lg:text-[22px] md:text-[19px] xs:text-[17px] 
     lg:border-b-[5px] md:border-b-[4px] xs:border-b-[3px] border-white hover:border-[#12FBE1] xs:mb-4;
+  }
+  .coreCourses{
+    @apply items-center border-[3px] border-[#12FBE1] text-center font-bold xs:h-[85px] xs:max-w-[100px] xs:text-[8px] md:h-[135px] md:max-w-[145px] md:text-[13px] lg:h-[165px] lg:max-w-[190px] lg:text-[18px];
   }
 }  

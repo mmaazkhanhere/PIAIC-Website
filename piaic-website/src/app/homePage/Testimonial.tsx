@@ -34,7 +34,8 @@ export default function Testimonial() {
                 <swiper-slide> {/*First Slide */}
                     <section class="flex flex-col items-center p-10 mt-10 mb-4 container mx-auto rounded-3xl">
                         <div>
-                            <img src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg" alt="" class="w-32 h-32 rounded-full object-cover 
+                            <img src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg" alt="" class="w-32 h-32 rounded-full 
+                            object-cover 
                             border-[4px] border-[#12FBE1]" />
                         </div>
 
