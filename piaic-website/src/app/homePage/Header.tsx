@@ -20,7 +20,7 @@ export default function Header() {
                             <a href="/Courses">PROGRAMS</a>
                         </li>
                         <li>
-                            <a href="/aboutUs">ABOUT US</a>
+                            <a href="/AboutUs">ABOUT US</a>
                         </li>
                         <li>
                             <a href="/WIT">WIT</a>
@@ -51,7 +51,7 @@ export default function Header() {
                                     <a href="/Courses">PROGRAMS</a>
                                 </li>
                                 <li className='py-1'>
-                                    <a href="/aboutUs">ABOUT US</a>
+                                    <a href="/AboutUs">ABOUT US</a>
                                 </li>
                                 <li className='py-1'>
                                     <a href="/WIT">WIT</a>

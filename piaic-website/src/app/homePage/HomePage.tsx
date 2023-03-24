@@ -111,9 +111,9 @@ export default function HomePage() {
             </section >
 
             <section> {/*Testimonial Section */}
-                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headerSpan">W</span>HAT<span
-                    className="headerSpan"> P</span>EOPLE <span className="headerSpan"> H</span>AVE <span className="headerSpan"> T</span>O <span className="headerSpan"> S</span>
-                    AY?</h1>
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headingSpan">W</span>HAT<span
+                    className="headingSpan"> P</span>EOPLE <span className="headingSpan"> H</span>AVE <span className="headingSpan"> T</span>O <span className="headingSpan"> S</span>
+                    AY</h1>
                 <Testimonial />
             </section>
         </>
