@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-import president from '../../../public/President.png'
 import i1 from '../../../public/piaic1.jpg'
 import i2 from '../../../public/piaic2.jpg'
 import i3 from '../../../public/piaic3.jpg'
@@ -11,7 +10,7 @@ import i5 from '../../../public/piaic5.jpg'
 import i6 from '../../../public/piaic6.jpg'
 
 import ai from '../../../public/AI.jpg'
-import block from '../../../public/blockchain.jpeg'
+import network from '../../../public/network.jpg'
 import cloud from '../../../public/cloud.jpg'
 import iot from '../../../public/iot.jpg'
 import meta from '../../../public/metaverse.jpg'
@@ -85,27 +84,27 @@ export default function HomePage() {
 
                     <div className="ml-1 bg-[#2E294E] container max-w-[270px] md:relative lg:static max-h-[310px] border-[3px] border-[#12FBE1]">
                         <div className="text-[23px] font-semibold text-center">ARTIFICIAL INTELLIGENCE</div>
-                        <Image src={ai} alt='AI Picture' className='md:mt-3 xl:mt-8 hover:translate-y-5' />
+                        <Image src={ai} alt='AI Picture' className='md:mt-3 xl:mt-12 hover:translate-y-5' />
                     </div>
 
                     <div className="container max-w-[270px] bg-[#2E294E] max-h-[310px] border-[3px] border-[#12FBE1]">
                         <div className="text-[23px] font-semibold text-center">WEB3.0 AND METAVERSE</div>
-                        <Image src={meta} alt='Metaverse' className='hover:translate-y-5' />
+                        <Image src={meta} alt='Metaverse' className='hover:translate-y-5 xl:mt-2' />
                     </div>
 
                     <div className="container max-w-[270px] max-h-[310px] bg-[#2E294E] border-[3px] border-[#12FBE1]">
-                        <div className="text-[23px] font-semibold text-center">BLOCKCHAIN</div>
-                        <Image src={block} alt='Blockchain' className='md:mt-8 xl:mt-11 hover:translate-y-5' />
+                        <div className="text-[23px] font-semibold text-center">Network Programmability</div>
+                        <Image src={network} alt='Blockchain' className='md:mt-1 xl:mt-12 hover:translate-y-5' />
                     </div>
 
                     <div className="container flex flex-col max-w-[270px] max-h-[310px] ml- border-[3px] bg-[#2E294E] md:absolute lg:static md:ml-48 lg:ml-0 md:mt-72 lg:mt-0 border-[#12FBE1]">
                         <div className="text-[23px] font-semibold text-center">INTERNET OF THINGS</div>
-                        <Image src={iot} alt='' className='md:mt-5 xl:mt-11 hover:translate-y-5' />
+                        <Image src={iot} alt='' className='md:mt-5 xl:mt-14 hover:translate-y-5' />
                     </div>
 
                     <div className="container max-w-[270px] md:absolute lg:static bg-[#2E294E] md:ml-[520px] lg:ml-0 md:mt-72 lg:mt-0 max-h-[310px] border-[3px] border-[#12FBE1]">
                         <div className=" text-[23px] font-semibold  text-center">CLOUD NATIVE PROGRAMMING</div>
-                        <Image src={cloud} alt='Cloud' className='md:mt-1 xl:mt-9 hover:translate-y-5' />
+                        <Image src={cloud} alt='Cloud' className='md:mt-1 xl:mt-12 hover:translate-y-5' />
                     </div>
 
                 </div>
