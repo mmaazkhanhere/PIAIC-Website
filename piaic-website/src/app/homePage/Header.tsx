@@ -7,23 +7,23 @@ export default function Header() {
         <header className='font-bold text-white text-[20px] '>
             <nav className="flex justify-between items-center w-full ">
                 <div className="">
-                    <a href="/">
+                    <a href="/" >
                         <img src="/piaic.png" alt="PIAIC" className="xs:w-[73px] md:w-[80px] mt-[10px] xs:ml[25px] md:ml-[35px] lg:ml-[50px]" />
                     </a>
                 </div>
                 <div className="container flex place-content-end lg:mr-[50px] md:mr-[35px] xs:mr-[25px] mt-[10px]">
                     <ul className="hidden md:flex items-center gap-16">
                         <li>
-                            <a href="https://portal.piaic.org/signup">APPLY</a>
+                            <a href="https://portal.piaic.org/signup" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>APPLY</a>
                         </li>
                         <li>
-                            <a href="/Courses">PROGRAMS</a>
+                            <a href="/Courses" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>PROGRAMS</a>
                         </li>
                         <li>
-                            <a href="/AboutUs">ABOUT US</a>
+                            <a href="/AboutUs" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>ABOUT US</a>
                         </li>
                         <li>
-                            <a href="/WIT">WIT</a>
+                            <a href="/WIT" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>WIT</a>
                         </li>
                     </ul>
 
@@ -45,16 +45,16 @@ export default function Header() {
 
                             <ul className=" flex flex-col w-full cursor-pointer pt-24">
                                 <li className='py-1'>
-                                    <a href="https://portal.piaic.org/signup">APPLY</a>
+                                    <a href="https://portal.piaic.org/signup" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>APPLY</a>
                                 </li>
                                 <li className='py-1'>
-                                    <a href="/Courses">PROGRAMS</a>
+                                    <a href="/Courses" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>PROGRAMS</a>
                                 </li>
                                 <li className='py-1'>
-                                    <a href="/AboutUs">ABOUT US</a>
+                                    <a href="/AboutUs" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>ABOUT US</a>
                                 </li>
                                 <li className='py-1'>
-                                    <a href="/WIT">WIT</a>
+                                    <a href="/WIT" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>WIT</a>
                                 </li>
                             </ul>
                         </div>
