@@ -37,7 +37,7 @@ export default function HomePage() {
                     </p>
 
                     <button className="bannerButton">
-                        <a href="/">Apply Now</a>
+                        <a href="https://portal.piaic.org/signup">Apply Now</a>
                     </button>
                 </div>
             </section>
