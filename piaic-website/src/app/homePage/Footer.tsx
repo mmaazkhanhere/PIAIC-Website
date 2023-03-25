@@ -3,7 +3,9 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer className="footerStyle container">
-            <div className="p-[45px]">
+
+            <div className="p-[45px]"> {/*Navigation Section */}
+
                 <h1 className="text-[24px] font-bold">Navigation</h1>
                 <ul className="list-inside list-disc pt-4 text-[13px]">
                     <li>
@@ -11,39 +13,37 @@ export default function Footer() {
                     </li>
 
                     <li className="pt-1">
-                        <a href="/" className="border-[#2E294E] border-b-[#12FBE1] hover:border">Apply</a>
+                        <a href="https://portal.piaic.org/signup" className="border-[#2E294E] border-b-[#12FBE1] hover:border">Apply</a>
                     </li>
 
                     <li className="pt-1">
-                        <a href="/" className="border-[#2E294E] border-b-[#12FBE1] hover:border">Programs</a>
+                        <a href="/Courses" className="border-[#2E294E] border-b-[#12FBE1] hover:border">Programs</a>
                     </li>
 
                     <li className="pt-1">
-                        <a href="/" className="border-[#2E294E] border-b-[#12FBE1] hover:border">About President</a>
+                        <a href="/AboutUs" className="border-[#2E294E] border-b-[#12FBE1] hover:border">About President</a>
                     </li>
 
                     <li className="pt-1">
-                        <a href="/" className="border-[#2E294E] border-b-[#12FBE1] hover:border">Management Committee</a>
-                    </li>
-
-                    <li className="pt-1">
-                        <a href="/" className="border-[#2E294E] border-b-[#12FBE1] hover:border">Women Inclusion in Technology (WIT)</a>
+                        <a href="/WIT" className="border-[#2E294E] border-b-[#12FBE1] hover:border">Women Inclusion in Technology (WIT)</a>
                     </li>
                 </ul>
             </div>
 
-            <div className="p-[45px]">
-                <h1 className="text-[24px] font-bold">Follow Us</h1>
+            <div className="p-[45px]"> {/*Follow Us Section */}
 
+                <h1 className="text-[24px] font-bold">Follow Us</h1>
                 <ul>
-                    <div className="container flex pt-4 text-[13px]">
+                    <div className="container flex pt-4 text-[13px]"> {/*Facebook */}
+
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M28.344 0H1.656C0.741 0 0 0.741 0 1.656V28.344C0 29.259 0.741 30 1.656 30H16.023V18.3825H12.114V13.8555H16.023V10.515C16.023 6.639 18.39 4.53 21.8475 4.53C23.5035 4.53 24.9255 4.653 25.341 4.7085V8.7585H22.944C21.063 8.7585 20.7 9.6525 20.7 10.9635V13.854H25.1835L24.5985 18.381H20.6985V30H28.344C29.259 30 30 29.259 30 28.344V1.656C30 0.741 29.259 0 28.344 0Z" fill="#699BF7" />
                         </svg>
-                        <a href="/" className="ml-[10px] border-[#2E294E] border-b-[#12FBE1] hover:border">Facebook</a>
+                        <a href="https://www.facebook.com/groups/piaic/" className="ml-[10px] border-[#2E294E] border-b-[#12FBE1] hover:border">Facebook</a>
                     </div>
 
-                    <div className="container flex pt-1">
+                    <div className="container flex pt-1"> {/*YouTube */}
+
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_5_32)">
                                 <path d="M15.0956 3.74817H15.2625C16.8038 3.75379 24.6131 3.81004 26.7188 4.37629C27.3553 4.54911 27.9353 4.88596 28.4009 5.35318C28.8665 5.82041 29.2013 6.40164 29.3719 7.03879C29.5613 7.75129 29.6944 8.69442 29.7844 9.66754L29.8031 9.86254L29.8444 10.35L29.8594 10.545C29.9813 12.2588 29.9963 13.8638 29.9981 14.2144V14.355C29.9963 14.7188 29.9794 16.4325 29.8444 18.2175L29.8294 18.4144L29.8125 18.6094C29.7188 19.6819 29.58 20.7469 29.3719 21.5307C29.2018 22.1681 28.8672 22.7496 28.4015 23.2169C27.9359 23.6842 27.3556 24.0209 26.7188 24.1932C24.5438 24.7782 16.2769 24.8194 15.1312 24.8213H14.865C14.2856 24.8213 11.8894 24.81 9.37687 24.7238L9.05812 24.7125L8.895 24.705L8.57438 24.6919L8.25375 24.6788C6.1725 24.5869 4.19063 24.4388 3.2775 24.1913C2.64092 24.0192 2.06075 23.6828 1.59511 23.2158C1.12947 22.7489 0.794713 22.1677 0.624375 21.5307C0.41625 20.7488 0.2775 19.6819 0.18375 18.6094L0.16875 18.4125L0.15375 18.2175C0.0612142 16.947 0.00993725 15.6739 0 14.4L0 14.1694C0.00375 13.7663 0.01875 12.3732 0.12 10.8357L0.133125 10.6425L0.13875 10.545L0.15375 10.35L0.195 9.86254L0.21375 9.66754C0.30375 8.69442 0.436875 7.74942 0.62625 7.03879C0.796301 6.40138 1.13093 5.81988 1.59659 5.35257C2.06225 4.88527 2.64257 4.54859 3.27937 4.37629C4.1925 4.13254 6.17437 3.98254 8.25562 3.88879L8.57438 3.87567L8.89687 3.86442L9.05812 3.85879L9.37875 3.84567C11.1632 3.78825 12.9484 3.75637 14.7337 3.75004H15.0956V3.74817ZM12 9.76692V18.8007L19.7944 14.2857L12 9.76692Z" fill="#FF0000" />
@@ -55,10 +55,11 @@ export default function Footer() {
                             </defs>
                         </svg>
 
-                        <a href="/" className="ml-[10px] border-[#2E294E] border-b-[#12FBE1] text-[13px] hover:border">Youtube</a>
+                        <a href="https://www.youtube.com/channel/UC2Makv_pLAtvrjHNgg-pBLg" className="ml-[10px] border-[#2E294E] border-b-[#12FBE1] text-[13px] hover:border">Youtube</a>
                     </div>
 
-                    <div className="container flex pt-1">
+                    <div className="container flex pt-1"> {/*Linkedin*/}
+
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_5_34)">
                                 <path d="M25.5613 25.5617H21.1162V18.6004C21.1162 16.9405 21.0866 14.8035 18.8044 14.8035C16.4892 14.8035 16.135 16.6122 16.135 18.4796V25.5612H11.69V11.2461H15.9572V13.2024H16.0169C16.444 12.4722 17.0611 11.8715 17.8025 11.4643C18.5439 11.0571 19.3819 10.8586 20.2273 10.89C24.7325 10.89 25.5632 13.8534 25.5632 17.7086L25.5613 25.5617ZM6.67441 9.2894C5.24976 9.28964 4.09464 8.13487 4.09441 6.71023C4.09417 5.28558 5.24882 4.13046 6.67347 4.13023C8.09812 4.12987 9.25324 5.28464 9.25347 6.70929C9.2536 7.39343 8.98195 8.04961 8.49828 8.53347C8.01462 9.01733 7.35855 9.28925 6.67441 9.2894ZM8.89699 25.5618H4.44726V11.2461H8.89687V25.5617L8.89699 25.5618ZM27.7773 0.00206135H2.21367C1.00546 -0.0115324 0.0146436 0.956319 -0.00012207 2.16452V27.8348C0.0141748 29.0436 1.00488 30.0124 2.21355 29.9997H27.7773C28.9886 30.0147 29.9831 29.0459 29.9999 27.8348V2.16253C29.9827 0.951983 28.988 -0.0157511 27.7773 6.91671e-05" fill="#0A66C2" />
@@ -75,12 +76,14 @@ export default function Footer() {
                 </ul>
             </div>
 
-            <div className="container max-w-sm p-[45px]">
+            <div className="container max-w-sm p-[45px]"> {/*Address */}
+
                 <h1 className="text-[24px] font-bold">Address</h1>
                 <p className="pt-4 text-[13px]">PIAIC Secretariat C7, Block 2 Gulshane-e-Iqbal, Karachi, Sindh, Pakistan</p>
             </div>
 
-            <div className="p-[45px]">
+            <div className="p-[45px]"> {/*Contact Us Section */}
+
                 <h1 className="text-[24px] font-bold">Contact Us</h1>
 
                 <div className="container flex pt-4">

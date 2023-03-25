@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Image from 'next/image'
 
 export default function Header() {
     return (
@@ -20,7 +19,7 @@ export default function Header() {
                             <a href="/Courses" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>PROGRAMS</a>
                         </li>
                         <li>
-                            <a href="/AboutUs" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>ABOUT US</a>
+                            <a href="/AboutUs" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>ABOUT PRESIDENT</a>
                         </li>
                         <li>
                             <a href="/WIT" className='border-[#1B998B]  border-b-[#12FBE1] hover:border'>WIT</a>
