@@ -9,16 +9,12 @@ import i4 from '../../../public/piaic4.jpg'
 import i5 from '../../../public/piaic5.jpg'
 import i6 from '../../../public/piaic6.jpg'
 
-import ai from '../../../public/AI.jpg'
-import network from '../../../public/network.jpg'
-import cloud from '../../../public/cloud.jpg'
-import iot from '../../../public/iot.jpg'
-import meta from '../../../public/metaverse.jpg'
+
 import Testimonial from './Testimonial'
 
 export default function HomePage() {
     return (
-        <section className='container  max-w-full mx-auto'>
+        <section className='container  max-w-full mx-auto'> {/*Banner Section */}
             <section className="container bannerStyle">
                 <div>
                     <a href="/" className='cursor-pointer'>
@@ -42,13 +38,16 @@ export default function HomePage() {
             </section>
 
             <section className="container max-w-full border-b-[5px] border-t-[5px] border-b-[#12FBE1] border-t-[#12FBE1] mt-[55px] bg-[#2E294E]">
+                {/*Admission Available Section */}
+
                 <p className="text-center lg:text-[24px] md:text-[22px] xs:text-[16px] lg:pt-[50px] md:pt-[40px] xs:pt-[20px] lg:pb-[50px] md:pb-[40px] xs:pb-[20px]">
                     Admissions are now open in Web 3.0 and Metaverse program in Karachi, Lahore, Islamabad. For Queries Contact PIAIC helpline <span className="underline"> <a href="tel:03082220203"> 0308 2220203 </a></span>
                 </p>
             </section>
 
             <section className='lg:max-w-[1336px] md:max-w-2xl xs:max-w-[400px] grid lg:grid-cols-[repeat(3,auto)] md:grid-cols-[repeat(2,auto)] xs:grid-cols-1 
-            xs:gap-1 md:gap-2 mx-auto mt-[50px]' >
+            xs:gap-1 md:gap-2 mx-auto mt-[50px]' > {/*Images Sectoin */}
+
                 <div className='border border-[#12FBE1] rounded-[30px] overflow-hidden'>
                     <Image src={i1} alt='Image 1' className='hover:scale-150' />
                 </div>
@@ -74,36 +73,54 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className='md:pb-[500px] lg:pb-[100px] mt-[50px] mx-auto'>
-                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headingSpan">C</span>OURSES <span
-                    className="headingSpan">A</span>VAILABLE</h1>
+            <section className='container lg:max-w-[1600px] mx-auto mt-[50px] md:pb-[50px] lg:pb-[100px]'> {/*Courses Section */}
 
-                <div className="container grid lg:grid-cols-[repeat(5,auto)] md:grid-cols-[repeat(3,auto)] xs:grid-cols-1 lg:max-w-[1600px] md:max-w-[1000px] md:pl-4 
-                    lg:pl-0 md:pr-4 lg:pr-0  mx-auto gap-[55px] mt-6">
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] container mx-auto flex place-content-center items-center font-semibold leading-tight"><span className="headingSpan">C</span>OURSES <span
+                    className="headingSpan">A</span>VAILABLE
+                </h1> {/*Heading */}
 
-                    <div className="ml-1 bg-[#2E294E] container max-w-[270px] md:relative lg:static max-h-[310px] border-[3px] border-[#12FBE1]">
-                        <div className="text-[23px] font-semibold text-center">ARTIFICIAL INTELLIGENCE</div>
-                        <Image src={ai} alt='AI Picture' className='md:mt-3 xl:mt-12 hover:translate-y-5' />
+                <div className="container mt-8 grid gap-5 xs:grid-cols-1 xs:place-items-center md:max-w-[1000px] md:grid-cols-[repeat(2,auto)] md:pr-4 md:pl-4 
+                lg:max-w-[1600px] lg:grid-cols-[repeat(5,auto)] lg:pr-0 lg:pl-0 "> {/*Courses */}
+
+                    <div className="relative group xs:w-[300px] md:w-[230px] border-[3px] border-[#12FBE1]">
+                        {/*The container is relative in postion allowing absolute items to be positioned relative to the container */}
+                        <img src="/AI.jpg" className="w-full h-auto hover:scale-150" alt="your-image-alt" />
+                        <div className="absolute inset-0 flex flex-col items-center group-hover:bg-gray-900 group-hover:bg-opacity-75 justify-center text-white text-center 
+                        opacity-0 hover:opacity-100 transition-opacity duration-300 text-2xl font-bold uppercase">
+                            {/*Absolute inset-0 makes the caption absolutely to the container and stretches it to the full width and height 
+                            flex flex-col items-center: the caption is center vertically and horizontally within the container
+                            group-hover:bg-gray-900 group-hover:bg-opacity-75: This changes the background color and its opacity when hovered over*/}
+
+                            <p>Artifical Intelligence</p>
+                        </div>
                     </div>
 
-                    <div className="container max-w-[270px] bg-[#2E294E] max-h-[310px] border-[3px] border-[#12FBE1]">
-                        <div className="text-[23px] font-semibold text-center">WEB3.0 AND METAVERSE</div>
-                        <Image src={meta} alt='Metaverse' className='hover:translate-y-5 xl:mt-2' />
+                    <div className="relative group xs:w-[300px] md:w-[200px] border-[3px] border-[#12FBE1]">
+                        <img src="/metaverse.jpg" className="w-full h-auto hover:scale-150" alt="your-image-alt" />
+                        <div className="absolute inset-0 flex flex-col items-center group-hover:bg-gray-900 group-hover:bg-opacity-75 justify-center text-white text-center opacity-0 hover:opacity-100 transition-opacity duration-300 text-2xl font-bold uppercase">
+                            <p>Web 3.0 and Metaverse</p>
+                        </div>
                     </div>
 
-                    <div className="container max-w-[270px] max-h-[310px] bg-[#2E294E] border-[3px] border-[#12FBE1]">
-                        <div className="text-[23px] font-semibold text-center">Network Programmability</div>
-                        <Image src={network} alt='Blockchain' className='md:mt-1 xl:mt-12 hover:translate-y-5' />
+                    <div className="relative group xs:w-[300px] md:w-[260px] border-[3px] border-[#12FBE1]">
+                        <img src="/network.jpg" className="w-full h-auto hover:scale-150" alt="your-image-alt" />
+                        <div className="absolute inset-0 flex flex-col items-center group-hover:bg-gray-900 group-hover:bg-opacity-75 justify-center text-white text-center opacity-0 hover:opacity-100 transition-opacity duration-300 text-2xl font-bold uppercase">
+                            <p>Network Programmability</p>
+                        </div>
                     </div>
 
-                    <div className="container flex flex-col max-w-[270px] max-h-[310px] ml- border-[3px] bg-[#2E294E] md:absolute lg:static md:ml-48 lg:ml-0 md:mt-72 lg:mt-0 border-[#12FBE1]">
-                        <div className="text-[23px] font-semibold text-center">INTERNET OF THINGS</div>
-                        <Image src={iot} alt='' className='md:mt-5 xl:mt-14 hover:translate-y-5' />
+                    <div className="relative group xs:w-[300px] md:w-[210px] border-[3px] border-[#12FBE1]">
+                        <img src="/iot.jpg" className="w-full h-auto hover:scale-150" alt="your-image-alt" />
+                        <div className="absolute inset-0 flex flex-col items-center group-hover:bg-gray-900 group-hover:bg-opacity-75 justify-center text-white text-center opacity-0 hover:opacity-100 transition-opacity duration-300 text-2xl font-bold uppercase">
+                            <p>IoT</p>
+                        </div>
                     </div>
 
-                    <div className="container max-w-[270px] md:absolute lg:static bg-[#2E294E] md:ml-[520px] lg:ml-0 md:mt-72 lg:mt-0 max-h-[310px] border-[3px] border-[#12FBE1]">
-                        <div className=" text-[23px] font-semibold  text-center">CLOUD NATIVE PROGRAMMING</div>
-                        <Image src={cloud} alt='Cloud' className='md:mt-1 xl:mt-12 hover:translate-y-5' />
+                    <div className="relative group xs:w-[300px] md:w-[240px] border-[3px] border-[#12FBE1]">
+                        <img src="/cloud.jpg" className="w-full h-auto hover:scale-150" alt="your-image-alt" />
+                        <div className="absolute inset-0 flex flex-col items-center group-hover:bg-gray-900 group-hover:bg-opacity-75 justify-center text-white text-center opacity-0 hover:opacity-100 transition-opacity duration-300 text-2xl font-bold uppercase">
+                            <p>Cloud Native Programming</p>
+                        </div>
                     </div>
 
                 </div>
