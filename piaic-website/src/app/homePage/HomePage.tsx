@@ -18,7 +18,7 @@ import Testimonial from './Testimonial'
 
 export default function HomePage() {
     return (
-        <>
+        <section className='container max-w-7xl mx-auto'>
             <section className="container bannerStyle">
                 <div>
                     <a href="/" className='cursor-pointer'>
@@ -116,6 +116,7 @@ export default function HomePage() {
                     AY</h1>
                 <Testimonial />
             </section>
-        </>
+        </section>
+
     )
 }

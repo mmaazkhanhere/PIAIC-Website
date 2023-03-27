@@ -7,7 +7,7 @@ export default function Header() {
             <nav className="flex justify-between items-center w-full ">
                 <div className="">
                     <a href="/" >
-                        <img src="/piaic.png" alt="PIAIC" className="sm:w-[73px] md:w-[80px] mt-[10px] sm:ml[25px] md:ml-[35px] lg:ml-[50px]" />
+                        <img src="/piaic.png" alt="PIAIC" className="xs:w-[73px] md:w-[80px] mt-[10px] sm:ml[25px] md:ml-[35px] lg:ml-[50px]" />
                     </a>
                 </div>
                 <div className="container flex place-content-end lg:mr-[50px] md:mr-[35px] sm:mr-[25px] mt-[10px]">
