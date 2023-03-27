@@ -5,9 +5,9 @@ export default function AboutUs() {
     return (
         <section className="container mx-auto bg-[#2E294E] p-12 text-white mt-10 rounded-3xl mb-20">
             <div className="container flex flex-col items-center">
-                <img src="https://pbs.twimg.com/profile_images/1083295676447027200/CqYuxTH-_400x400.jpg" alt="" className="xs:w-36 md:w-44 lg:w-48 rounded-full outline 
+                <img src="https://pbs.twimg.com/profile_images/1083295676447027200/CqYuxTH-_400x400.jpg" alt="" className="sm:w-36 md:w-44 lg:w-48 rounded-full outline 
                 outline-offset-2 hover:scale-125 outline-[#12FBE1]" />
-                <h1 className="mt-3 xs:text-3xl lg:text-4xl font-bold">Dr. Arif Alvi</h1>
+                <h1 className="mt-3 sm:text-3xl lg:text-4xl font-bold">Dr. Arif Alvi</h1>
                 <h3 className="mt-3 font-thin">President of the Islamic Republic of Pakistan</h3>
             </div>
 

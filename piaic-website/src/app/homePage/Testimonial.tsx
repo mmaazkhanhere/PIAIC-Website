@@ -9,7 +9,7 @@ export default function Testimonial() {
 
 
     return (
-        <div className='container xs:max-w-sm md:max-w-xl lg:max-w-4xl mx-auto bg-[#2E294E] text-[#F6E7CB] mt-[50px] mb-[50px] p-3 hover:bg-white hover:text-black rounded-3xl'>
+        <div className='container sm:max-w-sm md:max-w-xl lg:max-w-4xl mx-auto bg-[#2E294E] text-[#F6E7CB] mt-[50px] mb-[50px] p-3 hover:bg-white hover:text-black rounded-3xl'>
 
             <Swiper
                 modules={[Navigation, Pagination, A11y]}
