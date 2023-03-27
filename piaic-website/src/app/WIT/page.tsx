@@ -24,69 +24,69 @@ export default function WIT() {
 
             <section className='container mx-auto mt-10 p-13 mb-10'>
                 <div className='mt-10 container flex flex-col place-items-center'>
-                    <h1 className="lg:text-[40px] md:text-[30px] sm:text-[18px] text-center font-semibold leading-tight"><span
+                    <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span
                         className="headingSpan"> W</span>OMEN <span className="headingSpan"> I</span>NCLUSION <span className="headingSpan"> I</span>N <span className="headingSpan"> T</span>
                         ECHNOLOGY</h1>
-                    <h3 className='underline font-mono lg:text-[30px] md:text-[20px] sm:text-[14px]'>PIAIC WOMEN GALLERY</h3>
+                    <h3 className='underline font-mono lg:text-[30px] md:text-[20px] xs:text-[14px]'>PIAIC WOMEN GALLERY</h3>
                 </div>
 
-                <div className='container grid sm:grid-cols-[repeat(1,auto)]  md:grid-cols-[repeat(2,auto)] lg:grid-cols-3 sm:gap-1 md:gap-2 mt-8'>
+                <div className='container grid xs:grid-cols-[repeat(1,auto)]  md:grid-cols-[repeat(2,auto)] lg:grid-cols-3 xs:gap-1 md:gap-2 mt-8'>
                     <div className='col-span-3'>
-                        <img src="/wit1.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit1.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div >
-                        <img src="/wit2.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit2.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div >
-                        <img src="/wit3.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit3.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit4.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit4.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div className='col-span-3'>
-                        <img src="/wit5.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit5.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div >
-                        <img src="/wit6.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit6.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit7.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit7.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit8.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit8.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div className='col-span-3'>
-                        <img src="/wit15.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit15.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit10.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit10.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div >
-                        <img src="/wit11.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit11.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit12.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit12.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div className='col-span-3'>
-                        <img src="/wit13.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit13.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div className='col-span-3'>
-                        <img src="/wit14.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit14.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit9.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit9.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit16.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit16.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit17.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit17.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div className='col-span-2'>
-                        <img src="/wit18.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit18.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                     <div>
-                        <img src="/wit19.jpg" alt="" className='sm:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
+                        <img src="/wit19.jpg" alt="" className='xs:border-[1px] lg:border-[2px] border-[#12FBE1] rounded-xl hover:scale-125' />
                     </div>
                 </div>
             </section >

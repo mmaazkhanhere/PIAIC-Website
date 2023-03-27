@@ -18,21 +18,20 @@ import Testimonial from './Testimonial'
 
 export default function HomePage() {
     return (
-        <section className='container max-w-7xl mx-auto'>
+        <section className='container  max-w-full mx-auto'>
             <section className="container bannerStyle">
                 <div>
                     <a href="/" className='cursor-pointer'>
-                        <img src="/President.png" alt="" className='sm:w-[250px] md:w-[250px] lg:w-[320px]' />
+                        <img src="/President.png" alt="" className='xs:w-[250px] md:w-[250px] lg:w-[320px]' />
                     </a>
                 </div>
 
                 <div className="container bannerContent">
+                    <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headingSpan">P</span>RESIDENTIAL
+                        <span className="headingSpan"> I</span>NITIATIVE FOR <span className="headingSpan"> A</span>RTIFICIAL <span className="headingSpan">I</span>NTELLIGENCE &
+                        <span className="headingSpan"> C</span>OMPUTING</h1>
 
-                    <h1 className="lg:text-[40px] md:text-[30px] sm:text-[18px] text-center font-semibold leading-tight"><span className="headerSpan">P</span>RESIDENTIAL
-                        <span className="headerSpan"> I</span>NITIATIVE FOR <span className="headerSpan"> A</span>RTIFICIAL <span className="headerSpan">I</span>NTELLIGENCE &
-                        <span className="headerSpan"> C</span>OMPUTING</h1>
-
-                    <p className="text-justify lg:text-[22px] md:text-[20px] sm:text-[16px] lg:leading-8 md:leading-6">
+                    <p className="text-justify lg:text-[22px] md:text-[20px] xs:text-[16px] lg:leading-8 md:leading-6">
                         The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies. Experts are calling this the 4th industrial revolution. We want Pakistan to become a global hub for AI, data science, cloud native computing, edge computing, blockchain, augmented reality, and internet of things.
                     </p>
 
@@ -43,13 +42,13 @@ export default function HomePage() {
             </section>
 
             <section className="container max-w-full border-b-[5px] border-t-[5px] border-b-[#12FBE1] border-t-[#12FBE1] mt-[55px] bg-[#2E294E]">
-                <p className="text-center lg:text-[24px] md:text-[22px] sm:text-[16px] lg:pt-[50px] md:pt-[40px] sm:pt-[20px] lg:pb-[50px] md:pb-[40px] sm:pb-[20px]">
+                <p className="text-center lg:text-[24px] md:text-[22px] xs:text-[16px] lg:pt-[50px] md:pt-[40px] xs:pt-[20px] lg:pb-[50px] md:pb-[40px] xs:pb-[20px]">
                     Admissions are now open in Web 3.0 and Metaverse program in Karachi, Lahore, Islamabad. For Queries Contact PIAIC helpline <span className="underline"> <a href="tel:03082220203"> 0308 2220203 </a></span>
                 </p>
             </section>
 
-            <section className='lg:max-w-[1336px] md:max-w-2xl sm:max-w-[400px] grid lg:grid-cols-[repeat(3,auto)] md:grid-cols-[repeat(2,auto)] sm:grid-cols-[repeat(1,auto)] 
-            sm:gap-1 md:gap-2 mx-auto mt-[50px]' >
+            <section className='lg:max-w-[1336px] md:max-w-2xl xs:max-w-[400px] grid lg:grid-cols-[repeat(3,auto)] md:grid-cols-[repeat(2,auto)] xs:grid-cols-1 
+            xs:gap-1 md:gap-2 mx-auto mt-[50px]' >
                 <div className='border border-[#12FBE1] rounded-[30px] overflow-hidden'>
                     <Image src={i1} alt='Image 1' className='hover:scale-150' />
                 </div>
@@ -75,12 +74,12 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className='md:pb-[500px] lg:pb-[100px] mt-[50px]'>
-                <h1 className="lg:text-[40px] md:text-[30px] sm:text-[18px] text-center font-semibold leading-tight"><span className="headerSpan">C</span>OURSES <span
-                    className="headerSpan">A</span>VAILABLE</h1>
+            <section className='md:pb-[500px] lg:pb-[100px] mt-[50px] mx-auto'>
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headingSpan">C</span>OURSES <span
+                    className="headingSpan">A</span>VAILABLE</h1>
 
-                <div className="container grid lg:grid-cols-[repeat(5,auto)] md:grid-cols-[repeat(3,auto)] sm:grid-cols-1 lg:max-w-[1600px] md:max-w-[1000px] md:pl-4 
-                lg:pl-0 md:pr-4 lg:pr-0  mx-auto gap-[55px] mt-6">
+                <div className="container grid lg:grid-cols-[repeat(5,auto)] md:grid-cols-[repeat(3,auto)] xs:grid-cols-1 lg:max-w-[1600px] md:max-w-[1000px] md:pl-4 
+                    lg:pl-0 md:pr-4 lg:pr-0  mx-auto gap-[55px] mt-6">
 
                     <div className="ml-1 bg-[#2E294E] container max-w-[270px] md:relative lg:static max-h-[310px] border-[3px] border-[#12FBE1]">
                         <div className="text-[23px] font-semibold text-center">ARTIFICIAL INTELLIGENCE</div>
@@ -110,13 +109,12 @@ export default function HomePage() {
                 </div>
             </section >
 
-            <section> {/*Testimonial Section */}
-                <h1 className="lg:text-[40px] md:text-[30px] sm:text-[18px] text-center font-semibold leading-tight"><span className="headingSpan">W</span>HAT<span
+            <section className='mt-5'> {/*Testimonial Section */}
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headingSpan">W</span>HAT<span
                     className="headingSpan"> P</span>EOPLE <span className="headingSpan"> H</span>AVE <span className="headingSpan"> T</span>O <span className="headingSpan"> S</span>
                     AY</h1>
                 <Testimonial />
             </section>
         </section>
-
     )
 }

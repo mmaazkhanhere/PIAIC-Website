@@ -9,7 +9,7 @@ export default function Testimonial() {
 
 
     return (
-        <div className='container sm:max-w-sm md:max-w-xl lg:max-w-4xl mx-auto bg-[#2E294E] text-[#F6E7CB] mt-[50px] mb-[50px] p-3 hover:bg-white hover:text-black rounded-3xl'>
+        <div className='container xs:max-w-xs md:max-w-xl lg:max-w-4xl mx-auto bg-[#2E294E] text-[#F6E7CB] mt-[50px] mb-[50px] p-3 hover:bg-white hover:text-black rounded-3xl'>
 
             <Swiper
                 modules={[Navigation, Pagination, A11y]}
@@ -58,7 +58,7 @@ export default function Testimonial() {
                         </div>
 
                         <div className="flex flex-col">
-                            <h1 className="font-bold text-lg">Usman Hanif</h1>
+                            <h1 className="font-bold text-lg">Uxsan Hanif</h1>
                             <h3 className="font-thin">Journalist</h3>
                         </div>
                     </section>
@@ -107,7 +107,6 @@ export default function Testimonial() {
                         </div>
                     </section>
                 </SwiperSlide>
-                ...
             </Swiper>
         </div >
     );

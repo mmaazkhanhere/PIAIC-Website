@@ -10,27 +10,27 @@
 
 @layer components {
   .footerStyle{
-    @apply grid bg-[#2E294E] lg:grid-cols-[repeat(4,auto)] md:grid-cols-[repeat(2,auto)] sm:grid-cols-[repeat(1,auto)] min-w-full sm:place-content-center md:place-content-stretch ;
+    @apply grid bg-[#2E294E] lg:grid-cols-[repeat(4,auto)] md:grid-cols-[repeat(2,auto)] xs:grid-cols-1 min-w-full xs:place-content-center md:place-content-stretch ;
   }
   .bannerStyle{
     @apply mt-10 border-[5px] border-[#12FBE1] rounded-[30px] grid lg:grid-cols-[repeat(2,auto)] 
-    md:grid-cols-[repeat(1,auto)] sm:grid-cols-[repeat(1,auto)] sm:place-items-center 
-     lg:max-w-[1336px] md:max-w-3xl sm:max-w-[400px] mx-auto; 
+    md:grid-cols-[repeat(1,auto)] xs:grid-cols-1 xs:place-items-center 
+     lg:max-w-[1336px] md:max-w-3xl xs:max-w-[400px] mx-auto; 
   }
   .bannerContent{
-    @apply  flex flex-col items-center lg:gap-y-10 md:gap-y-7 sm:gap-y-5 lg:pl-16 md:pl-12 sm:pl-8 lg:pr-16 
-    md:pr-12 sm:pr-8;
+    @apply  flex flex-col items-center lg:gap-y-10 md:gap-y-7 xs:gap-y-5 lg:pl-16 md:pl-12 xs:pl-8 lg:pr-16 
+    md:pr-12 xs:pr-8;
   }
   .headingSpan{
-    @apply lg:text-[80px] md:text-[70px] sm:text-[55px];
+    @apply lg:text-[80px] md:text-[70px] xs:text-[55px] xs:leading-9;
   }
   .bannerButton{
-    @apply lg:w-[230px] md:w-[220px] sm:w-[200px] lg:h-[60px] md:h-[50px] sm:h-[40px] rounded-[30px]
-  bg-white text-black font-bold lg:text-[22px] md:text-[19px] sm:text-[17px] lg:border-b-[5px] 
-  md:border-b-[4px] sm:border-b-[3px] border-white hover:border-[#12FBE1] sm:mb-4;
+    @apply lg:w-[230px] md:w-[220px] xs:w-[200px] lg:h-[60px] md:h-[50px] xs:h-[40px] rounded-[30px]
+  bg-white text-black font-bold lg:text-[22px] md:text-[19px] xs:text-[17px] lg:border-b-[5px] 
+  md:border-b-[4px] xs:border-b-[3px] border-white hover:border-[#12FBE1] xs:mb-4;
   }
   .coreCourses{
-    @apply items-center border-[3px] border-[#12FBE1] text-center font-bold sm:h-[85px] sm:max-w-[100px] 
-   mx-auto sm:text-[8px] md:h-[135px] md:max-w-[145px] md:text-[13px] lg:h-[165px] lg:max-w-[190px] lg:text-[18px];
+    @apply items-center border-[3px] border-[#12FBE1] text-center font-bold xs:h-[85px] xs:max-w-[100px] 
+   mx-auto xs:text-[8px] md:h-[135px] md:max-w-[145px] md:text-[13px] lg:h-[165px] lg:max-w-[190px] lg:text-[18px];
   }
 }  
