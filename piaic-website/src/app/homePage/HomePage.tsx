@@ -73,13 +73,13 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className='container lg:max-w-[1600px] mx-auto mt-[50px] md:pb-[50px] lg:pb-[100px]'> {/*Courses Section */}
+            <section className='container lg:max-w-[1600px] mx-auto mt-[50px] pb-[50px]'> {/*Courses Section */}
 
-                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] container mx-auto flex place-content-center items-center font-semibold leading-tight"><span className="headingSpan">C</span>OURSES <span
-                    className="headingSpan">A</span>VAILABLE
+                <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] container mx-auto flex place-content-center items-center font-semibold leading-tight">
+                    <span className="headingSpan">C</span>OURSES <span className="headingSpan">A</span>VAILABLE
                 </h1> {/*Heading */}
 
-                <div className="container mt-8 grid gap-5 xs:grid-cols-1 xs:place-items-center md:max-w-[1000px] md:grid-cols-[repeat(2,auto)] md:pr-4 md:pl-4 
+                <div className="container mt-10 grid gap-5 xs:grid-cols-1 xs:place-items-center md:max-w-[1000px] md:grid-cols-[repeat(2,auto)] md:pr-4 md:pl-4 
                 lg:max-w-[1600px] lg:grid-cols-[repeat(5,auto)] lg:pr-0 lg:pl-0 "> {/*Courses */}
 
                     <div className="relative group xs:w-[300px] md:w-[230px] border-[3px] border-[#12FBE1]">
@@ -126,7 +126,7 @@ export default function HomePage() {
                 </div>
             </section >
 
-            <section className='mt-5'> {/*Testimonial Section */}
+            <section className='mt-[55px]'> {/*Testimonial Section */}
                 <h1 className="lg:text-[40px] md:text-[30px] xs:text-[18px] text-center font-semibold leading-tight"><span className="headingSpan">W</span>HAT<span
                     className="headingSpan"> P</span>EOPLE <span className="headingSpan"> H</span>AVE <span className="headingSpan"> T</span>O <span className="headingSpan"> S</span>
                     AY</h1>
