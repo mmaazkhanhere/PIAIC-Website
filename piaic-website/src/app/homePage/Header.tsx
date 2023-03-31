@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <section className='flex justify-between container lg:max-w-[1200px] xl:max-w-[1800px] items-center font-bold text-white text-[20px] xs:ml-[25px] md:ml-[35px] lg:ml-[50px]'>
+        <section className='flex justify-between container md:max-w-[700px] lg:max-w-[1200px] xl:max-w-[1800px] items-center font-bold text-white text-[20px] xs:ml-[25px] md:ml-[35px] lg:ml-[50px]'>
             <div>
                 <a href="/" >
                     <img src="/piaic.png" alt="PIAIC" className="xs:w-[73px] md:w-[80px] mt-[10px] " />
