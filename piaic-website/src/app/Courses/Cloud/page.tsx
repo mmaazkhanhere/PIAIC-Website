@@ -28,7 +28,7 @@ export default function Cloud() {
 
                     <a href="https://panaverse-sable.vercel.app/Quarter-2" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex-col pt-3">
-                            <h1>Develop customer-facing-plant-scale website, full-stack apps and templates</h1>
+                            <h1>Develop customer-facing-planet-scale website, full-stack apps and templates</h1>
                         </div>
                     </a>
                     <div>
@@ -63,7 +63,7 @@ export default function Cloud() {
 
                     <a href="https://panaverse-sable.vercel.app/Cloud" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex">
-                            <h1>Developing Multi-CLoud APIs using CDK for Terraform</h1>
+                            <h1>Developing Multi-Cloud APIs using CDK for Terraform</h1>
                         </div>
                     </a>
                 </div>

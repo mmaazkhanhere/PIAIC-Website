@@ -28,7 +28,7 @@ export default function IoT() {
 
                     <a href="https://panaverse-sable.vercel.app/Quarter-2" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex-col pt-3">
-                            <h1>Develop customer-facing-plant-scale website, full-stack apps and templates</h1>
+                            <h1>Develop customer-facing-planet-scale website, full-stack apps and templates</h1>
                         </div>
                     </a>
                     <div>

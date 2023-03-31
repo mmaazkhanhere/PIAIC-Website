@@ -5,7 +5,7 @@ export default function AI() {
         <section className="container mx-auto rounded-[30px] bg-[#2E294E] xs:max-w-[520px] md:max-w-[900px] lg:max-w-7xl xs:mt-6 md:mt-8 lg:mt-10 pb-7 p-4">
             <div>
                 <h1 className="text-center font-semibold leading-tight xs:text-[18px] md:text-[30px] lg:text-[40px]"><span className="headingSpan">A</span>RTIFICIAL <span className="headingSpan"> I</span>NTELLIGENCE</h1>
-                <p className="text-center xs:text-[13px] md:text-[18px] md:leading-6 lg:text-[22px] lg:leading-8">A ONE YEAR AI PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS. GETTING PAKISTAN READY FOR THE NEW ERA OF COMPUTING ENABLED BY THE RISE OF AI</p>
+                <p className="text-center xs:text-[13px] md:text-[18px] md:leading-6 lg:text-[22px] lg:leading-8">A ONE YEAR AI PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF COMPUTING ENABLED BY THE RISE OF AI</p>
             </div>
 
             <div className="mt-6">
@@ -26,7 +26,7 @@ export default function AI() {
 
                     <a href="https://panaverse-sable.vercel.app/Quarter-2" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex-col pt-3">
-                            <h1>Develop customer-facing-plant-scale website, full-stack apps and templates</h1>
+                            <h1>Develop customer-facing-planet-scale website, full-stack apps and templates</h1>
                         </div>
                     </a>
                     <div>
@@ -49,7 +49,7 @@ export default function AI() {
                 <div className="container mx-auto mt-5 flex place-content-center items-center xs:gap-3 md:gap-x-4 lg:gap-x-8">
                     <a href="https://panaverse-sable.vercel.app/AI" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex">
-                            <h1>Developing Plant-Scale Intelligent APIs and Python Programming</h1>
+                            <h1>Developing Planet-Scale Intelligent APIs and Python Programming</h1>
                         </div>
                     </a>
 

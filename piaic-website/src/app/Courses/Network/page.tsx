@@ -4,7 +4,7 @@ export default function Network() {
     return (
         <section className="container mx-auto rounded-[30px] bg-[#2E294E] xs:max-w-[520px] md:max-w-[900px] lg:max-w-7xl xs:mt-12 md:mt-16">
             <div>
-                <h1 className="text-center font-semibold leading-tight xs:text-[18px] md:text-[30px] lg:text-[40px]"><span className="headingSpan">N</span>ETWORK
+                <h1 className="text-center font-semibold leading-tight xs:text-[18px] md:text-[30px] lg:text-[40px] lg:mt-3"><span className="headingSpan">N</span>ETWORK
                     <span className="headingSpan"> P</span>ROGRAMMABILITY AND<span className="headingSpan"> A</span>UTOMATION<span className="headingSpan"> S</span>PECIALIST</h1>
                 <p className="text-center xs:text-[12px] md:text-[18px] md:leading-6 lg:text-[22px] lg:leading-8">A ONE YEAR LONG NETWORK PROGRAMMABILITY AND AUTOMATION PROGRAM COURSE
                     DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF AUTOMATION</p>
@@ -28,7 +28,7 @@ export default function Network() {
 
                     <a href="https://panaverse-sable.vercel.app/Quarter-2" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex-col pt-3">
-                            <h1>Develop customer-facing-plant-scale website, full-stack apps and templates</h1>
+                            <h1>Develop customer-facing-planet-scale website, full-stack apps and templates</h1>
                         </div>
                     </a>
                     <div>

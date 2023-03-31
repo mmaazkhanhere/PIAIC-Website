@@ -27,7 +27,7 @@ export default function Web3() {
 
                     <a href="https://panaverse-sable.vercel.app/Quarter-2" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex-col pt-3">
-                            <h1>Develop customer-facing-plant-scale website, full-stack apps and templates</h1>
+                            <h1>Develop customer-facing-planet-scale website, full-stack apps and templates</h1>
                         </div>
                     </a>
                     <div>
@@ -50,7 +50,7 @@ export default function Web3() {
                 <div className="container mx-auto mt-5 flex place-content-center items-center xs:gap-3 md:gap-x-4 lg:gap-x-8">
                     <a href="https://panaverse-sable.vercel.app/Web3" className="hover:bg-white hover:text-black hover:scale-125">
                         <div className="coreCourses container flex">
-                            <h1>Developing xsart Contracts and Planet-Scale Web 3.0 DApps</h1>
+                            <h1>Developing Smart Contracts and Planet-Scale Web 3.0 DApps</h1>
                         </div>
                     </a>
 
